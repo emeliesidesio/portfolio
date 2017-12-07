@@ -1,0 +1,28 @@
+.hero-container {
+  width: 100%;
+  height: 600px;
+  display: flex;
+}
+
+.hero-left {
+  width: 40%;
+  background: pink;
+}
+
+.hero-middle {
+  width: 60%;
+  height: 600px;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+}
+
+.hero-right {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+}
