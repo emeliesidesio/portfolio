@@ -1,6 +1,9 @@
 import React from "react"
 import Hero from "./hero"
 import About from "./about"
+import Work from "./work"
+import Contact from "./contact"
+import Footer from "./footer"
 
 class App extends React.Component {
 
@@ -9,6 +12,9 @@ class App extends React.Component {
       <div>
         <Hero />
         <About />
+        <Work />
+        <Contact />
+        <Footer />
       </div>
     )
   }

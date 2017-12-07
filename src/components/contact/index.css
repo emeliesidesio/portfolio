@@ -1,4 +1,4 @@
-.about-container {
+.contact-container {
   background: #EAEDf0;
   width: 100%;
   display: flex;
@@ -8,12 +8,12 @@
   height: 400px;
 }
 
-.about-header {
+.contact-header {
   width: 40%;
   text-align: center;
 }
 
-.about-copy {
+.contact-copy {
   width: 40%;
   text-align: center;
 }
