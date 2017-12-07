@@ -1,11 +1,15 @@
 import React from "react"
 import Hero from "./hero"
+import About from "./about"
 
 class App extends React.Component {
 
   render() {
     return (
-      <Hero />
+      <div>
+        <Hero />
+        <About />
+      </div>
     )
   }
 
