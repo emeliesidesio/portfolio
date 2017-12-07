@@ -7,6 +7,8 @@
 .hero-left {
   width: 40%;
   background: pink;
+  display: flex;
+  flex-direction: row;
 }
 
 .hero-middle {
@@ -45,4 +47,54 @@
   50% {
     transform: translateX(0px);
   }
+}
+
+.bar {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 0 6px 6px 40px;
+  display: block;
+  transition: 0.3s;
+}
+
+.hamburger {
+  width: 80px;
+  height: 65px;
+  display: block;
+  cursor: pointer;
+  padding-top: 35px;
+  position: relative;
+  z-index: 1;
+  background: pink;
+}
+
+.hamburger-checkbox {
+  display: none;
+}
+
+.menu {
+  position: absolute;
+  left: -100%;
+  transition: all 0.7s ease;
+  opacity: 0;
+  display: block;
+  padding-top: 41px;
+}
+
+.hamburger-checkbox:checked ~ .menu {
+  opacity: 1;
+  left: 80px;
+}
+
+.hamburger-checkbox:checked + .hamburger .bar1 {
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.hamburger-checkbox:checked + .hamburger .bar2 {
+  opacity: 0;
+}
+
+.hamburger-checkbox:checked + .hamburger .bar3 {
+  transform: rotate(45deg) translate(-8px, -8px) ;
 }
