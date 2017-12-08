@@ -23,23 +23,6 @@ h2 {
   padding: 0;
 }
 
-a {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: black;
-  font-size: 1.2vw;
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-}
-
-a:hover {
-  color: red;
-  border-bottom: 1px solid red;
-}
-
 p {
   font-family: "Lato", sans-serif;
   font-weight: 300;
@@ -55,11 +38,4 @@ hr {
 
 li {
   list-style: none;
-  margin-right: 25px;
-}
-
-ul {
-  display: flex;
-  flex-direction: row;
-  margin: 0;
 }

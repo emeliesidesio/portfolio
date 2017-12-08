@@ -13,12 +13,12 @@
   justify-content: space-between;
 }
 
-img {
+.social-image {
   width: 2.5vw;
   height: 2.5vw;
 }
 
-img:hover {
+.social-image:hover {
   margin-top: 1px;
   position: relative;
 }

@@ -28,26 +28,54 @@
   visibility: hidden;
 }
 
+.react-image {
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 0 8px 0.2px grey;
+}
+
 .work-box-2 {
   background: #EAEDF0;
   width: 100%;
   height: 300px;
   margin-bottom: 20px;
-  animation: slide-left 4s 1 ease-in-out;
+  /*animation: slide-left 4s 1 ease-in-out;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .work-box-3 {
   background: #EAEDF0;
   width: 80%;
   height: 200px;
   margin-left: 75px;
-  animation: slide-left 2s 1 ease-in-out;
+  /*animation: slide-left 2s 1 ease-in-out;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-image {
+  width: 80%;
+  box-shadow: 0 0 8px 0.2px grey;
 }
 
 .work-box-4 {
   background: #EAEDF0;
   width: 45%;
   height: 400px;
-  animation: slide-right 3s 1 ease-in-out;
+  /*animation: slide-right 3s 1 ease-in-out;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calendar-image {
+  width: 55%;
+  width: 55%;
+  background-size: cover;
+  box-shadow: 0 0 8px 0.2px grey;
 }
 
 @keyframes slide-left {
