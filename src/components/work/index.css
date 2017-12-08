@@ -29,8 +29,7 @@
 }
 
 .react-image {
-  width: 80%;
-  height: 80%;
+  width: 70%;
   box-shadow: 0 0 8px 0.2px grey;
 }
 
@@ -73,8 +72,6 @@
 
 .calendar-image {
   width: 55%;
-  width: 55%;
-  background-size: cover;
   box-shadow: 0 0 8px 0.2px grey;
 }
 

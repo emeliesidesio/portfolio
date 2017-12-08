@@ -17,12 +17,12 @@ class Navigation extends React.Component {
         <div className="menu">
           <div className="nav-menu">
             <ul className="nav-list">
+              <li><Link to="/" className="nav-link">Home</Link></li>
               <li><a className="nav-link" href="">Web Development</a></li>
               <li><a className="nav-link" href="">Motion Graphics</a></li>
               <li><a className="nav-link" href="">Illustrations</a></li>
               <li><Link to="/resume" className="nav-link">Resume</Link></li>
               <li><a className="nav-link" href="#contact">Contact</a></li>
-              <li><Link to="/" className="nav-link">Home</Link></li>
             </ul>
           </div>
         </div>

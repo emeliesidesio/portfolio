@@ -12,7 +12,7 @@
   height: 65px;
   display: block;
   cursor: pointer;
-  padding-top: 35px;
+  padding-top: 20px;
   position: relative;
   z-index: 1;
 }
@@ -22,15 +22,15 @@
 }
 
 .nav-link {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: black;
-    font-size: 1vw;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: black;
+  font-size: 1vw;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
 
 .nav-link:hover {
@@ -40,7 +40,7 @@
 .menu {
   position: absolute;
   width: 100%;
-  height: 100px;
+  height: 65px;
   top: -100%;
   transition: all 0.7s ease;
   opacity: 0;
@@ -49,18 +49,16 @@
 }
 
 .nav-menu {
-  width: 100%;
-  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 65px;
 }
 
 .nav-list {
-  width: 55%;
+  width: 65%;
   display: flex;
   flex-direction: row;
-  margin: 0;
   justify-content: space-between;
 }
 

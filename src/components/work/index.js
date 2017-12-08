@@ -21,17 +21,11 @@ class Work extends React.Component {
             </div>
             <div className="work-box-3">
               <img src="/weather-api.png" alt="" className="weather-image" />
-              <h3>{this.props.title}</h3>
-              <p>{this.props.objective}</p>
-              <p>{this.props.keyword}</p>
             </div>
           </div>
 
           <div className="work-box-4">
             <img src="/group-calendar.png" alt="" className="calendar-image" />
-            <h3>{this.props.title}</h3>
-            <p>{this.props.objective}</p>
-            <p>{this.props.keyword}</p>
           </div>
 
         </div>

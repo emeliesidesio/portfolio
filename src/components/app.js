@@ -14,10 +14,8 @@ class App extends React.Component {
         <BrowserRouter>
           <div>
             <Navigation />
-            <div className="page">
-              <Route path="/" exact component={Home} />
-              <Route path="pages/resume" component={Resume} />
-            </div>
+            <Route path="/" exact component={Home} />
+            <Route path="/resume" exact component={Resume} />
           </div>
         </BrowserRouter>
 
