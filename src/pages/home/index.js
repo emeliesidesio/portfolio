@@ -1,5 +1,5 @@
 import React from "react"
-import Web from "components/web"
+import Work from "components/work"
 import Sparetime from "components/sparetime"
 import "./index.css"
 
@@ -8,10 +8,11 @@ class Home extends React.Component {
     return (
       <div className="HomePage">
 
-        <div className="hero-container">
-          <h2 className="hero-title">Emelie Sidesiö</h2>
-          <hr className="hero-line" />
-          <p className="hero-copy">Web Developer & Graphic Designer</p>
+        <div className="hero-container" id="hero-img">
+          <div className="hero-copy-container">
+            <h2 className="hero-title">Emelie Sidesiö</h2>
+            <p className="hero-copy">Web Developer & Graphic Designer</p>
+          </div>
         </div>
 
         <div className="info-container">
@@ -24,7 +25,7 @@ class Home extends React.Component {
           </div>
         </div>
 
-        <Web />
+        <Work />
         <Sparetime />
 
         <div className="info-container" id="contact">
@@ -33,7 +34,7 @@ class Home extends React.Component {
           </div>
           <hr />
           <div className="info-copy">
-            <p>Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla.</p>
+            <p>Contact me for collaborations or work opportunities! <br />esidesio@gmail.com / 073 030 85 81</p>
           </div>
           <a className="back-link" href="#top">Back to Top</a>
         </div>

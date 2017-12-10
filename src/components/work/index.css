@@ -1,4 +1,4 @@
-.web-container {
+.work-container {
   width: 100%;
   height: 720px;
   display: flex;
@@ -8,49 +8,51 @@
   margin-top: 70px;
 }
 
-.web-boxes {
-  width: 60%;
+.work-boxes {
+  width: 75%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 30px;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
-.web-box-left {
-  width: 50%;
+.work-box-left {
+  width: 32%;
+  height: 530px;
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
-.web-box-1 {
-  width: 100%;
-  height: 40px;
-  visibility: hidden;
-}
-
-.react-image {
-  width: 70%;
-  box-shadow: 0 0 8px 0.2px grey;
-}
-
-.web-box-2 {
+.work-box-middle {
   background: #EAEDF0;
-  width: 100%;
-  height: 300px;
-  margin-bottom: 20px;
-  /*animation: slide-left 4s 1 ease-in-out;*/
+  width: 32%;
+  height: 450px;
+  /*animation: slide-right 3s 1 ease-in-out;*/
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.web-box-3 {
+.work-box-right {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.react-image {
+  width: 87%;
+  box-shadow: 0 0 8px 0.2px grey;
+}
+
+.react-box {
   background: #EAEDF0;
-  width: 80%;
-  height: 200px;
-  margin-left: 75px;
-  /*animation: slide-left 2s 1 ease-in-out;*/
+  height: 300px;
+  margin-bottom: 20px;
+  /*animation: slide-left 4s 1 ease-in-out;*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,19 +63,32 @@
   box-shadow: 0 0 8px 0.2px grey;
 }
 
-.web-box-4 {
+.weather-box {
   background: #EAEDF0;
-  width: 45%;
-  height: 400px;
-  /*animation: slide-right 3s 1 ease-in-out;*/
+  width: 80%;
+  height: 170px;
+  /*animation: slide-left 2s 1 ease-in-out;*/
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .calendar-image {
-  width: 55%;
+  width: 73%;
   box-shadow: 0 0 8px 0.2px grey;
+}
+
+.forms-image {
+  width: 79%;
+  box-shadow: 0 0 8px 0.2px grey;
+}
+
+.forms-box {
+  background: #EAEDF0;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @keyframes slide-left {
