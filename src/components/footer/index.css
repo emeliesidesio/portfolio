@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
+  height: 16vw;;
 }
 
 .logo-container {
@@ -18,7 +18,12 @@
   height: 2.5vw;
 }
 
-/*.social-image:hover {
-  margin-top: 1px;
-  position: relative;
-}*/
+@media only screen and (max-width: 500px) {
+  .social-image {
+    width: 4vw;
+    height: 4vw;
+  }
+  .logo-container {
+    width: 16vw;
+  }
+}

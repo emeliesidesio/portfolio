@@ -6,17 +6,19 @@ class Resume extends React.Component {
   render() {
     return (
       <div className="ResumePage">
+
         <div className="resume-header">
           <img src="/download.png" alt="" className="resume-image" />
-          <h2>Emelie Sidesiö</h2>
+          <h2 className="resume-title">Emelie Sidesiö</h2>
           <p>1988-01-18</p>
         </div>
+        <hr className="resume-line" />
+
         <div className="resume-container">
+
           <div className="resume-left">
-            <div className="header">
-              <h2>Education</h2>
-            </div>
             <div className="content">
+              <h2 className="resume-title">Education</h2>
               <p className="resume-title-content">Technigo / Oct 2017 - Feb 2018</p>
               <p>Digital Artworker - Producing images for multiple channels such as website and social media.</p>
               <p className="resume-title-content">Hyper Island / 2012 - 2013</p>
@@ -25,11 +27,10 @@ class Resume extends React.Component {
               <p>Grafiska institutet. En vidareutbildning inom grafisk design och projektledning.</p>
             </div>
           </div>
-          <div className="resume-right">
-            <div className="header">
-              <h2>Work Experience</h2>
-            </div>
+
+          <div className="resume-middle">
             <div className="content">
+              <h2 className="resume-title">Work Experience</h2>
               <p className="resume-title-content">H&M / July 2016 - Ongoing</p>
               <p>Digital Artworker - Producing images for multiple channels such as website and social media.</p>
               <p className="resume-title-content">Ivyrevel / March 2016 - July 2016</p>
@@ -39,20 +40,23 @@ class Resume extends React.Component {
               <p className="resume-title-content">Fjällräven / July 2013 - Sep 2015</p>
               <p>PIM Manager - Production management, artwork and banner production.</p>
             </div>
-            <div className="header">
-              <h2>Freelance</h2>
-            </div>
+          </div>
+
+          <div className="resume-right">
             <div className="content">
+              <h2 className="resume-title">Freelance</h2>
               <p className="resume-title-content">Tierra / 2016 - Ongoing</p>
               <p>Artworker for digital and print productions.</p>
               <p className="resume-title-content">Graphiare / 2014 - 2015</p>
               <p>Responsible for development of graphic profile, website and print production.</p>
             </div>
           </div>
-          <div className="return">
-            <p><Link to="/" className="nav-link">Back to Home</Link></p>
-          </div>
         </div>
+
+        <div className="return">
+          <p><Link to="/" className="nav-link">Back to Home</Link></p>
+        </div>
+
       </div>
     )
   }

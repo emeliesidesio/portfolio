@@ -12,15 +12,17 @@ body {
 h1 {
   font-family: "Fira Sans", sans-serif;
   font-size: 8vw;
+  margin: 0;
 }
 
 h2 {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
+  font-family: "Fira Sans", sans-serif;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  font-size: 2.3vw;
   margin: 0;
   padding: 0;
+  color: #83C6BE;
 }
 
 p {
@@ -38,4 +40,44 @@ hr {
 
 li {
   list-style: none;
+}
+
+a, Link {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: black;
+  font-size: 1vw;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #83C6BE;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 900px) {
+  p {
+    font-size: 3vw;
+  }
+  h2 {
+    font-size: 5vw;
+  }
+  a {
+    font-size: 2.3vw;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  p {
+    font-size: 3.5vw;
+  }
+  h2 {
+    font-size: 5vw;
+  }
+  a {
+    font-size: 2.3vw;
+  }
 }

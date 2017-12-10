@@ -1,7 +1,6 @@
 import React from "react"
 import Web from "components/web"
-import Motion from "components/motion"
-import Illustrations from "components/illustrations"
+import Sparetime from "components/sparetime"
 import "./index.css"
 
 class Home extends React.Component {
@@ -10,14 +9,9 @@ class Home extends React.Component {
       <div className="HomePage">
 
         <div className="hero-container">
-          <div className="hero-left" id="hero-bg" />
-          <div className="hero-middle">
-            <h1>Hello world.</h1>
-          </div>
-          <div className="hero-right">
-            <h2>Emelie Sidesiö</h2>
-            <p>Web Developer & Graphic Designer</p>
-          </div>
+          <h2 className="hero-title">Emelie Sidesiö</h2>
+          <hr className="hero-line" />
+          <p className="hero-copy">Web Developer & Graphic Designer</p>
         </div>
 
         <div className="info-container">
@@ -31,8 +25,7 @@ class Home extends React.Component {
         </div>
 
         <Web />
-        <Motion />
-        <Illustrations />
+        <Sparetime />
 
         <div className="info-container" id="contact">
           <div className="info-header">
@@ -42,7 +35,7 @@ class Home extends React.Component {
           <div className="info-copy">
             <p>Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla.</p>
           </div>
-            <a className="back-link" href="#top">Back to Top</a>
+          <a className="back-link" href="#top">Back to Top</a>
         </div>
 
       </div>

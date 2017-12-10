@@ -4,7 +4,7 @@ import "./index.css"
 class Web extends React.Component {
   render() {
     return (
-      <div className="web-container">
+      <div className="web-container" id="web">
 
         <div className="web-headline">
           <h2>Web Development</h2>
