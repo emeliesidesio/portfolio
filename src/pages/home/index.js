@@ -1,5 +1,7 @@
 import React from "react"
-import Work from "components/work"
+import Web from "components/web"
+import Motion from "components/motion"
+import Illustrations from "components/illustrations"
 import "./index.css"
 
 class Home extends React.Component {
@@ -28,7 +30,9 @@ class Home extends React.Component {
           </div>
         </div>
 
-        <Work />
+        <Web />
+        <Motion />
+        <Illustrations />
 
         <div className="info-container" id="contact">
           <div className="info-header">
@@ -38,6 +42,7 @@ class Home extends React.Component {
           <div className="info-copy">
             <p>Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla.</p>
           </div>
+            <a className="back-link" href="#top">Back to Top</a>
         </div>
 
       </div>

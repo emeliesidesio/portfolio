@@ -73,3 +73,18 @@
   width: 40%;
   text-align: center;
 }
+
+.back-link {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: black;
+  font-size: 1vw;
+  text-decoration: none;
+  margin-top: 50px;
+}
+
+.back-link:hover {
+  color: #83C6BE;
+}
