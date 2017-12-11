@@ -1,10 +1,11 @@
 .sparetime-container {
+  background: white;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 80px 0 80px 0;
+  padding-bottom: 80px;
 }
 
 .sparetime-headline {
@@ -49,5 +50,8 @@ iframe {
   iframe {
     width: 80vw;
     height: 43vw;
+  }
+  .sparetime-container {
+    padding-bottom: 40px;
   }
 }

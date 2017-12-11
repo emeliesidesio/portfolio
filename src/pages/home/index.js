@@ -8,20 +8,12 @@ class Home extends React.Component {
     return (
       <div className="HomePage">
 
-        <div className="hero-container" id="hero-img">
+        <div className="hero-container">
           <div className="hero-copy-container">
             <h2 className="hero-title">Emelie Sidesiö</h2>
             <p className="hero-copy">Web Developer & Graphic Designer</p>
-          </div>
-        </div>
-
-        <div className="info-container">
-          <div className="info-header">
-            <h2>What I do</h2>
-          </div>
-          <hr />
-          <div className="info-copy">
-            <p>Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla.</p>
+            <hr />
+            <p className="hero-copy">Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla.</p>
           </div>
         </div>
 

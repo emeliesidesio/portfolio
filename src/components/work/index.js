@@ -28,7 +28,7 @@ class Work extends React.Component {
 
           <div className="work-box-right">
             <div className="forms-box">
-              <img src="/forms-2.png" alt="" className="forms-image" />
+              <img src="/forms-image-2.png" alt="" className="forms-image" />
             </div>
           </div>
 
