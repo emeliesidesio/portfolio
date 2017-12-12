@@ -62,3 +62,26 @@
 .hamburger-checkbox:checked + .hamburger .bar3 {
   transform: rotate(45deg) translate(-8px, -8px) ;
 }
+
+@media only screen and (max-width: 500px) {
+  .menu {
+    height: 100%;
+    background: #313742;
+  }
+  .nav-list {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .nav-menu {
+    height: 50%;
+  }
+  .nav-link {
+    font-size: 5vw;
+    line-height: 40px;
+    color: white;
+  }
+}

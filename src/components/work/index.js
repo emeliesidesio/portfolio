@@ -13,21 +13,21 @@ class Work extends React.Component {
 
         <div className="work-boxes">
 
-          <div className="work-box-left">
-            <div className="react-box">
+          <div className="work-boxes-left">
+            <div className="box-project-1">
               <img src="/react-design.png" alt="" className="react-image" />
             </div>
-            <div className="weather-box">
-              <img src="/clock.png" alt="" className="weather-image" />
+            <div className="box-project-2">
+              <img src="/clock.png" alt="" className="clock-image" />
             </div>
           </div>
 
-          <div className="work-box-middle">
+          <div className="work-boxes-middle">
             <img src="/group-calendar.png" alt="" className="calendar-image" />
           </div>
 
-          <div className="work-box-right">
-            <div className="forms-box">
+          <div className="work-boxes-right">
+            <div className="box-project-3">
               <img src="/forms-image-2.png" alt="" className="forms-image" />
             </div>
           </div>

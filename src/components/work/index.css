@@ -17,30 +17,48 @@
   justify-content: space-between;
 }
 
-.work-box-left {
+.work-boxes-left {
   width: 32%;
-  height: 530px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  justify-content: flex-end;
 }
 
-.work-box-middle {
+.work-boxes-middle {
   background: #EAEDF0;
   width: 32%;
   height: 450px;
-  /*animation: slide-right 3s 1 ease-in-out;*/
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.work-box-right {
+.work-boxes-right {
   width: 32%;
+}
+
+.box-project-1 {
+  background: #EAEDF0;
+  height: 280px;
+  margin-bottom: 20px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+.box-project-2 {
+  background: #EAEDF0;
+  height: 210px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-project-3 {
+  background: #EAEDF0;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .react-image {
@@ -48,29 +66,9 @@
   box-shadow: 0 0 8px 0.2px grey;
 }
 
-.react-box {
-  background: #EAEDF0;
-  height: 300px;
-  margin-bottom: 20px;
-  /*animation: slide-left 4s 1 ease-in-out;*/
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.weather-image {
-  width: 80%;
+.clock-image {
+  width: 85%;
   box-shadow: 0 0 8px 0.2px grey;
-}
-
-.weather-box {
-  background: #EAEDF0;
-  width: 80%;
-  height: 170px;
-  /*animation: slide-left 2s 1 ease-in-out;*/
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .calendar-image {
@@ -83,52 +81,60 @@
   box-shadow: 0 0 8px 0.2px grey;
 }
 
-.forms-box {
-  background: #EAEDF0;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-@keyframes slide-left {
-  0% {
-    transform: translateX(-800px);
-  }
-  50% {
-    transform: translateX(0px);
-  }
-}
-
-@keyframes slide-right {
-  0% {
-    transform: translateX(600px);
-  }
-  50% {
-    transform: translateX(0px);
-  }
-}
-
 @media only screen and (max-width: 500px) {
-  .work-container {
-    height: 420px;
+  .work-boxes-middle {
+    height: 240px;
+    width: 49%;
+  }
+  .box-project-1 {
+    height: 140px;
+    margin-bottom: 10px;
+  }
+  .box-project-3 {
+    height: 150px;
+  }
+  .box-project-2 {
+    height: 100px;
   }
   .work-boxes {
+    width: 85%;
+  }
+  .work-boxes-left {
+    width: 49%;
+  }
+  .work-boxes-right {
+    width: 49%;
+    margin-top: 10px;
+  }
+  .react-image {
     width: 80%;
   }
-  .work-box-left {
+  .clock-image {
+    width: 80%;
+  }
+  .work-container {
+    height: 600px;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 900px) {
+  .work-boxes {
+    width: 87%;
+  }
+  .box-project-1 {
+    height: 200px;
+    margin-bottom: 12px;
+  }
+  .box-project-2 {
+    height: 150px;
+  }
+  .work-boxes-middle {
+    height: 330px;
+  }
+  .box-project-3 {
     height: 200px;
   }
-  .work-box-middle {
-    height: 170px;
-  }
-  .work-box-right {
-    height: 100px;
-  }
-  .react-box {
-    height: 200px;
-  }
-  .weather-box {
-    height: 100px;
+  .work-container {
+    height: 600px;
   }
 }

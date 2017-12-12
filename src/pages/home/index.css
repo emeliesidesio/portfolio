@@ -13,17 +13,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 100px;
 }
 
 .hero-title {
   font-size: 3vw;
   letter-spacing: 2px;
-  width: 40%;
+  width: 30vw;
   text-align: center;
 }
 
 .hero-copy {
-  width: 40%;
+  width: 30vw;
   text-align: center;
 }
 
@@ -50,6 +51,10 @@
 .back-link {
   margin-top: 50px;
 }
+.arrow {
+  width: 45px;
+  padding-top: 30px;
+}
 
 @media only screen and (max-width: 500px) {
   .info-container {
@@ -61,6 +66,9 @@
   .back-link {
     margin-top: 30px;
   }
+  .arrow {
+    width: 25px;
+  }
   .hero-container {
     height: 250px;
   }
@@ -70,5 +78,30 @@
   }
   .hero-copy {
     width: 80%;
+  }
+  .hero-copy-container {
+    padding-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 900px) {
+  .hero-container {
+    height: 350px;
+  }
+  .hero-copy {
+    width: 55%;
+  }
+  .hero-copy-container {
+    padding-bottom: 40px;
+  }
+  .hero-title {
+    font-size: 4vw;
+    width: 80%;
+  }
+  .info-copy {
+    width: 80%;
+  }
+  .arrow {
+    width: 30px;
   }
 }

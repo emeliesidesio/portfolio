@@ -28,7 +28,7 @@ class Home extends React.Component {
           <div className="info-copy">
             <p>Contact me for collaborations or work opportunities! <br />esidesio@gmail.com / 073 030 85 81</p>
           </div>
-          <a className="back-link" href="#top">Back to Top</a>
+          <a href="#top"><img className="arrow" src="/up-arrow.png" alt="" /></a>
         </div>
 
       </div>
