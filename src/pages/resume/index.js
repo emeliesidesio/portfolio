@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import Navigation from "components/navigation"
 import "./index.css"
 
 class Resume extends React.Component {

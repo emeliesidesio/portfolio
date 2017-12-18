@@ -4,36 +4,20 @@ import "./index.css"
 class Work extends React.Component {
   render() {
     return (
+
       <div className="work-container" id="work">
 
-        <div className="work-headline">
-          <h2>Web Development</h2>
-        </div>
-        <hr />
-        <p className="work-copy">Work I've made during my 12 week bootcamp at Technigo.</p>
-
-        <div className="work-boxes">
-
-          <div className="work-boxes-left">
-            <div className="box-project-1">
-              <img src="/react-design.png" alt="" className="react-image" />
-            </div>
-            <div className="box-project-2">
-              <img src="/clock.png" alt="" className="clock-image" />
-            </div>
-          </div>
-
-          <div className="work-boxes-middle">
-            <img src="/group-calendar.png" alt="" className="calendar-image" />
-          </div>
-
-          <div className="work-boxes-right">
-            <div className="box-project-3">
-              <img src="/forms-image-2.png" alt="" className="forms-image" />
-            </div>
-          </div>
-
-        </div>
+        <ul className="work-grid">
+          <li className="work-wide">
+            <h2>Web Development</h2>
+            <hr />
+            <p className="work-copy">Work I've made during my 12 week bootcamp at Technigo.</p>
+          </li>
+          <li className="box work-tall"><img src="/group-calendar.png" className="image-detail" alt="" /></li>
+          <li className="box"><img src="/react-design.png" className="image-detail" alt="" /></li>
+          <li className="box work-tall"><img src="/tictail-store.png" className="image-detail" alt="" /></li>
+          <li className="box"><img src="/forms-image-2.png" className="image-detail" alt="" /></li>
+        </ul>
       </div>
     )
   }

@@ -4,7 +4,6 @@ import Home from "pages/home"
 import Resume from "pages/resume"
 
 import Footer from "./footer"
-import Navigation from "./navigation"
 
 class App extends React.Component {
 

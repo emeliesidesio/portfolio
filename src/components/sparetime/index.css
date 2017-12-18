@@ -1,57 +1,70 @@
-.sparetime-container {
-  background: white;
-  width: 100%;
+.sparetime-container ul {
+  margin: 0;
+  padding: 0 14vw 0 14vw;
+}
+
+.sparetime-grid {
+  display: grid;
+  grid-template-rows: 14vw 16vw 16vw 16vw;
+  grid-gap: 20px;
+}
+
+.sparetime-grid li {
+  padding: 15px;
+  text-align: center;
+}
+
+.sparetime-wide {
+  grid-column: span 3;
+}
+
+.sparetime-wide hr {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+.cat {
+ background-size: cover;
+ background-position: 50% 20%;
+}
+
+.donut,
+.fries,
+.fan,
+.dreamcatcher,
+.kanken,
+.camera,
+.bottles,
+.camping {
+ background-size: cover;
+ background-position: 50% 50%;
+}
+
+.sparetime-lower {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding-bottom: 80px;
-}
-
-.sparetime-headline {
-  text-align: center;
-}
-
-.sparetime-copy {
-  width: 70%;
-  text-align: center;
-}
-
-.sparetime-boxes {
-  width: 70%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-top: 50px;
-  justify-content: space-between;
+  margin-top: 12px;
+  margin-bottom: 60px;
 }
 
 iframe {
-  width: 70vw;
-  height: 37vw;
+  width: 72vw;
+  height: 40vw;
 }
 
-.sparetime-img {
-  max-width: 22.5vw;
-  max-height: 17vw;
-  margin-bottom: 1.5vw;
-}
-
-@media only screen and (max-width: 500px) {
-  .sparetime-boxes {
-    margin-top: 25px;
-    width: 80%;
+@media only screen and (max-width: 700px) {
+  .sparetime-grid {
+    grid-template-rows: 32vw 25vw 25vw 25vw 25vw 25vw;
+    grid-gap: 10px;
   }
-  .sparetime-img {
-    max-width: 40vw;
-    max-height: 29vw;
-    margin-bottom: 2vw;
+  .sparetime-wide {
+    grid-column: span 2;
   }
   iframe {
-    width: 80vw;
-    height: 43vw;
+    width: 77vw;
+    height: 38vw;
   }
-  .sparetime-container {
-    padding-bottom: 40px;
+  .sparetime-lower {
+    margin-bottom: 40px;
   }
 }
