@@ -15,13 +15,13 @@ class Sparetime extends React.Component {
         <div className="sparetime-boxes">
           <img src="cat_walk_cycle.gif" alt="" className="sparetime-img" />
           <img src="donuts-01.png" alt="" className="sparetime-img" />
-          <img src="camping.gif" alt="" className="sparetime-img" />
-          <img src="fries-before-guys-02.png" alt="" className="sparetime-img" />
+          <img src="fries-animation.gif" alt="" className="sparetime-img" />
+          <img src="biggest-fan-01.png" alt="" className="sparetime-img" />
           <img src="dreamcatcher-01.png" alt="" className="sparetime-img" />
           <img src="kanken.png" alt="" className="sparetime-img" />
           <img src="bottles-01.png" alt="" className="sparetime-img" />
           <img src="camera.png" alt="" className="sparetime-img" />
-          <img src="hatch-01.png" alt="" className="sparetime-img" />
+          <img src="camping.gif" alt="" className="sparetime-img" />
         </div>
 
         <div className="sparetime-lower">

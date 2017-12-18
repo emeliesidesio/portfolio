@@ -1,44 +1,41 @@
-.ResumePage {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.resume-grid {
+  display: grid;
+  grid-template-columns: auto;
+  grid-auto-rows: auto;
+  grid-gap: 15px;
 }
 
-.resume-header {
-  width: 100%;
-  text-align: center;
-  margin-top: 50px;
+.resume-grid li {
+  padding: 15px;
+  text-align: left;
 }
 
 .resume-image {
   border-radius: 50%;
-  width: 220px;
-  height: 220px;
+  width: 20vw;
+  height: 20vw;
   object-fit: cover;
   margin-bottom: 20px;
 }
 
-.resume-container {
-  width: 80%;
-  display: flex;
-  flex-direction: row;
+.resume-grid h2 {
+  margin-bottom: 20px;
+  font-size: 2vw;
 }
 
-.resume-title {
-  font-size: 1.8vw;
+.header-second {
+  font-weight: bold;
 }
 
-.resume-line {
-  width: 30%;
+.resume-top {
+  grid-column: span 3;
+  display: grid;
+  justify-content: center;
 }
 
-.content {
-  margin: 30px 40px 0 30px;
-}
-
-.resume-title-content {
-  font-weight: 400;
-  margin-top: 20px;
+.ResumePage ul {
+  padding: 4vw 9vw 0 9vw;
+  margin: 0;
 }
 
 .return {
@@ -49,25 +46,22 @@
   align-items: center;
 }
 
-@media only screen and (max-width: 900px) {
-  .resume-container {
-    flex-direction: column;
-    width: 90%;
+@media only screen and (max-width: 700px) {
+  .resume-grid {
+    grid-gap: 0;
   }
-  .resume-header {
-    margin-top: 30px;
-  }
-  .resume-title {
-    font-size: 5vw;
-  }
-  .resume-line {
-    width: 75%;
-    margin-bottom: 0;
-  }
-  .content {
-    margin: 30px 30px 0 30px;
+  .resume-top {
+    grid-column: span 1;
   }
   .return {
     height: 20vw;
+  }
+  .resume-grid h2 {
+    font-size: 5vw;
+  }
+  .resume-image {
+    width: 40vw;
+    height: 40vw;
+    margin-bottom: 0;
   }
 }

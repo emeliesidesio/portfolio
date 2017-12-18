@@ -1,6 +1,7 @@
 import React from "react"
 import Work from "components/work"
 import Sparetime from "components/sparetime"
+import Navigation from "components/navigation"
 import "./index.css"
 
 class Home extends React.Component {
@@ -9,11 +10,14 @@ class Home extends React.Component {
       <div className="HomePage">
 
         <div className="hero-container">
+          <Navigation />
+        </div>
+
+        <div className="about-container">
           <div className="hero-copy-container">
-            <h2 className="hero-title">Emelie Sidesiö</h2>
-            <p className="hero-copy">Web Developer & Graphic Designer</p>
-            <hr />
-            <p className="hero-copy">Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla bla.</p>
+            <h2>This is me</h2>
+            <hr className="line" />
+            <p>My name is Emelie and I work as a graphic designer. It's important for me to constantly develop and to learn new things. Therefore I recently applied for a 12 week bootcamp in web development! Now I'm learning new things every day and getting new skills to combine with my previous ones.</p>
           </div>
         </div>
 
@@ -21,13 +25,9 @@ class Home extends React.Component {
         <Sparetime />
 
         <div className="info-container" id="contact">
-          <div className="info-header">
-            <h2>Get in touch</h2>
-          </div>
+          <h2>Get in touch</h2>
           <hr />
-          <div className="info-copy">
-            <p>Contact me for collaborations or work opportunities! <br />esidesio@gmail.com / 073 030 85 81</p>
-          </div>
+          <p>Contact me for collaborations or work opportunities! <br />esidesio@gmail.com / 073 030 85 81</p>
           <a href="#top"><img className="arrow" src="/up-arrow.png" alt="" /></a>
         </div>
 

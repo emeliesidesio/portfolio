@@ -1,7 +1,7 @@
 .bar {
   width: 35px;
   height: 5px;
-  background-color: #83C6BE;
+  background-color: white;
   margin: 0 6px 6px 40px;
   display: block;
   transition: 0.3s;
@@ -29,7 +29,6 @@
   transition: all 0.7s ease;
   opacity: 0;
   display: block;
-  background:rgba(255,255,255,0.4);
 }
 
 .nav-menu {
@@ -40,10 +39,18 @@
 }
 
 .nav-list {
-  width: 58%;
+  width: 50%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #F80793;
 }
 
 .hamburger-checkbox:checked ~ .menu {

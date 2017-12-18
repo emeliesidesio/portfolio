@@ -10,6 +10,7 @@ class Work extends React.Component {
           <h2>Web Development</h2>
         </div>
         <hr />
+        <p className="work-copy">Work I've made during my 12 week bootcamp at Technigo.</p>
 
         <div className="work-boxes">
 

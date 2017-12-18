@@ -1,5 +1,5 @@
 .footer-container {
-  background: #313742;
+  background-color: rgb(8,2,42);
   width: 100%;
   display: flex;
   justify-content: center;
@@ -24,6 +24,6 @@
     height: 4vw;
   }
   .logo-container {
-    width: 16vw;
+    width: 18vw;
   }
 }
