@@ -1,4 +1,5 @@
 import React from "react"
+import Navigation from "components/navigation"
 import { Link } from "react-router-dom"
 import "./index.css"
 
@@ -6,7 +7,7 @@ class Resume extends React.Component {
   render() {
     return (
       <div className="ResumePage">
-
+        <Navigation />
         <ul className="resume-grid">
           <li className="resume-top">
             <img src="/download.png" alt="" className="resume-image" />

@@ -1,7 +1,8 @@
 import React from "react"
-import Work from "components/work"
-import Sparetime from "components/sparetime"
+// import Work from "components/work"
+// import Sparetime from "components/sparetime"
 import Navigation from "components/navigation"
+import LottieControl from "animations/lottiecontrol"
 import "./index.css"
 
 class Home extends React.Component {
@@ -11,18 +12,46 @@ class Home extends React.Component {
 
         <div className="hero-container">
           <Navigation />
-        </div>
-
-        <div className="about-container">
-          <div className="hero-copy-container">
-            <h2>This is me</h2>
-            <hr className="line" />
-            <p>My name is Emelie and I work as a graphic designer. It's important for me to constantly develop and to learn new things. Therefore I recently applied for a 12 week bootcamp in web development! Now I'm learning new things every day and getting new skills to combine with my previous ones.</p>
+          <div className="copy-container">
+            <LottieControl />
+            <h1>Emelie Sidesiö</h1>
+            <p className="tagline">Web developer & Graphic designer.</p>
+            <div id="diamond"></div>
           </div>
         </div>
 
-        <Work />
-        <Sparetime />
+        <div className="work-container" id="work">
+
+          <ul className="work-grid">
+            <li className="work-wide">
+              <h2>Web Development</h2>
+            </li>
+            <li className="box">1</li>
+            <li className="box">2</li>
+            <li className="box">3</li>
+            <li className="box">4</li>
+            <li className="box">5</li>
+            <li className="box">6</li>
+          </ul>
+        </div>
+
+        <div className="work-container" id="sparetime">
+
+          <ul className="work-grid">
+            <li className="work-wide">
+              <h2>Sparetime projects</h2>
+            </li>
+            <li className="box">1</li>
+            <li className="box">2</li>
+            <li className="box">3</li>
+            <li className="box">4</li>
+            <li className="box">5</li>
+            <li className="box">6</li>
+          </ul>
+        </div>
+
+        {/* <Work /> */}
+        {/* <Sparetime /> */}
 
         <div className="info-container" id="contact">
           <h2>Get in touch</h2>

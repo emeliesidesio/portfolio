@@ -1,7 +1,7 @@
 .bar {
   width: 35px;
   height: 5px;
-  background-color: white;
+  background-color: black;
   margin: 0 6px 6px 40px;
   display: block;
   transition: 0.3s;
@@ -46,7 +46,7 @@
 }
 
 .nav-link {
-  color: white;
+  color: black;
 }
 
 .nav-link:hover {
@@ -73,7 +73,7 @@
 @media only screen and (max-width: 500px) {
   .menu {
     height: 100%;
-    background: #313742;
+    background-color: rgb(8,2,42);
   }
   .nav-list {
     flex-direction: column;
@@ -87,7 +87,7 @@
     height: 50%;
   }
   .nav-link {
-    font-size: 5vw;
+    font-size: 4vw;
     line-height: 40px;
     color: white;
   }

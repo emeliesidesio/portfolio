@@ -2,6 +2,7 @@ import React from "react"
 import { BrowserRouter, Route } from "react-router-dom"
 import Home from "pages/home"
 import Resume from "pages/resume"
+// import ProjectView from "pages/projectview"
 
 import Footer from "./footer"
 
@@ -16,7 +17,7 @@ class App extends React.Component {
             <Route path="/resume" exact component={Resume} />
           </div>
         </BrowserRouter>
-
+        {/* <ProjectView /> */}
         <Footer />
       </div>
     )
