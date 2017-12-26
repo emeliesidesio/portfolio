@@ -1,67 +1,45 @@
 .resume-grid {
   display: grid;
-  grid-template-columns: auto;
-  grid-auto-rows: auto;
   grid-gap: 15px;
+  padding: 4vw 9vw 0 9vw;
+  margin: 0;
+  margin-bottom: 100px;
 }
 
 .resume-grid li {
   padding: 15px;
-  text-align: left;
 }
 
 .resume-image {
   border-radius: 50%;
-  width: 20vw;
-  height: 20vw;
+  width: 17vw;
+  height: 17vw;
   object-fit: cover;
-  margin-bottom: 20px;
-}
-
-.resume-grid h2 {
-  margin-bottom: 20px;
-  font-size: 2vw;
 }
 
 .header-second {
-  font-weight: bold;
+  font-weight: 400;
 }
 
-.resume-top {
-  grid-column: span 3;
-  display: grid;
-  justify-content: center;
+.a {
+  grid-column: col 1;
+  grid-row: row;
+  text-align: center;
 }
 
-.ResumePage ul {
-  padding: 4vw 9vw 0 9vw;
-  margin: 0;
-}
-
-.return {
-  width: 100%;
-  height: 15vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.b {
+  grid-column: col 2;
+  grid-row: row;
 }
 
 @media only screen and (max-width: 700px) {
   .resume-grid {
-    grid-gap: 0;
-  }
-  .resume-top {
-    grid-column: span 1;
-  }
-  .return {
-    height: 20vw;
-  }
-  .resume-grid h2 {
-    font-size: 5vw;
+    display: block;
+    padding: 0 9vw 0 9vw;
+    margin-bottom: 50px;
   }
   .resume-image {
     width: 40vw;
     height: 40vw;
-    margin-bottom: 0;
   }
 }

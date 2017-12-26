@@ -1,5 +1,8 @@
+import calendar from "assets/advent-cal-img.png"
+
 export default [
   {
+    image: { calendar },
     id: "brief",
     name: "Design Brief",
     language: "React, HTML5, CSS",

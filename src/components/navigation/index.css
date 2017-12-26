@@ -39,14 +39,10 @@
 }
 
 .nav-list {
-  width: 50%;
+  width: 60%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-.nav-link {
-  color: black;
 }
 
 .nav-link:hover {
@@ -90,5 +86,8 @@
     font-size: 4vw;
     line-height: 40px;
     color: white;
+  }
+  .bar {
+    background-color: #F80793;
   }
 }

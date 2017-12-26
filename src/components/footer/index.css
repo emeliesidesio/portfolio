@@ -1,29 +1,23 @@
-.footer-container {
-  background-color: rgb(8,2,42);
+.footer-box {
+  background-color: #EAEDf0;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 16vw;;
+  height: 10vw;
 }
 
-.logo-container {
-  width: 11vw;
+.logo-box {
+  width: 9vw;
   display: flex;
   justify-content: space-between;
 }
 
-.social-image {
-  width: 2.5vw;
-  height: 2.5vw;
-}
-
 @media only screen and (max-width: 500px) {
-  .social-image {
-    width: 4vw;
-    height: 4vw;
+  .logo-box {
+    width: 22vw;
   }
-  .logo-container {
-    width: 18vw;
+  .footer-box {
+    height: 20vw;
   }
 }
