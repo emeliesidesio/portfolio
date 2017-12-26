@@ -36,7 +36,7 @@ class Home extends React.Component {
 
         <div className="work-container">
 
-          {/* {projects.map(project => (
+          {projects.map(project => (
             <ProjectView
               key={project.id}
               url={project.id}
@@ -44,7 +44,7 @@ class Home extends React.Component {
               language={project.language}
               image={project.image}
               description={project.description} />
-          ))} */}
+          ))}
 
           <ul className="work-grid">
             <li className="work-wide">

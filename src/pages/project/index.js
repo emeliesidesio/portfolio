@@ -17,14 +17,14 @@ export default class ProjectPage extends React.Component {
   }
 
   setProject = (project) => {
-    this.seState({
+    this.setState({
       project
     })
   }
 
   render() {
     return (
-      <div>
+      <div className="ProjectPage">
         <h2>{this.state.project.name}</h2>
         <p className="tagline">{this.state.project.language}</p>
         <p>{this.state.project.description}</p>
