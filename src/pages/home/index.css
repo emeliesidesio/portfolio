@@ -35,38 +35,7 @@
   background-position: 50%;
 }
 
-.workbox {
-  background-color: #EAEDf0;
-  display: grid;
-  align-items: center;
-  justify-content: center;
-}
-
-.workbox:hover {
-  cursor: pointer;
-}
-
-.calendar-img {
-  width: 12vw;
-}
-
-.grid-img {
-  width: 22vw;
-}
-
-.clock-img {
-  width: 17vw;
-}
-
-.form-img {
-  width: 19vw;
-}
-
-.tictail-img {
-  width: 12.5vw;
-}
-
-.footer-container {
+.about-container {
   width: 100%;
   min-height: 40vw;
   text-align: center;
@@ -81,18 +50,6 @@
   width: 35vw;
 }
 
-.logo-container {
-  width: 9vw;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
-}
-
-.social-image {
-  width: 2.5vw;
-  height: 2.5vw;
-}
-
 @media only screen and (max-width: 700px) {
   .tagline {
     font-size: 3.5vw;
@@ -100,18 +57,11 @@
   .hero-container {
     height: 90vw;
   }
-  .footer-container {
+  .about-container {
     height: 110vw;
   }
   .inner-margin {
     width: 65%;
-  }
-  .logo-container {
-    width: 23vw;
-  }
-  .social-image {
-    width: 6vw;
-    height: 6vw;
   }
   .work-grid {
     grid-template-rows: 10vw 30vw 30vw 30vw;
@@ -123,24 +73,5 @@
   }
   .work-container ul {
     padding: 0 14vw 10vw 14vw;
-  }
-  .calendar-img {
-    width: 17vw;
-  }
-
-  .grid-img {
-    width: 30vw;
-  }
-
-  .clock-img {
-    width: 24vw;
-  }
-
-  .form-img {
-    width: 28vw;
-  }
-
-  .tictail-img {
-    width: 17.5vw;
   }
 }

@@ -1,0 +1,20 @@
+.workbox {
+  background-color: #EAEDf0;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 20vw;
+}
+
+.detail {
+  width: 12vw;
+}
+
+@media only screen and (max-width: 700px) {
+  .workbox {
+    height: 30vw;
+  }
+  .detail {
+    width: 16vw;
+  }
+}

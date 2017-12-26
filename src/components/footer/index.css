@@ -1,4 +1,4 @@
-.footer-box {
+.footer-container {
   background-color: #EAEDf0;
   width: 100%;
   display: flex;
@@ -7,17 +7,26 @@
   height: 10vw;
 }
 
-.logo-box {
+.logo-container {
   width: 9vw;
   display: flex;
   justify-content: space-between;
 }
 
+.social-image {
+  width: 2.5vw;
+  height: 2.5vw;
+}
+
 @media only screen and (max-width: 500px) {
-  .logo-box {
+  .logo-container {
     width: 22vw;
   }
-  .footer-box {
+  .footer-container {
     height: 20vw;
+  }
+  .social-image {
+    width: 5.5vw;
+    height: 5.5vw;
   }
 }
