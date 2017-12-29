@@ -28,10 +28,17 @@ export default class ProjectPage extends React.Component {
     return (
       <div className="ProjectPage">
         <Navigation />
-        <h2>{this.state.project.name}</h2>
-        <p className="tagline">{this.state.project.language}</p>
-        <p>{this.state.project.description}</p>
-        <img src={this.state.project.image} alt="" />
+        <div className="project-container">
+          <div className="project-copy">
+            <h2>{this.state.project.name}</h2>
+            <p className="tagline">{this.state.project.language}</p><br />
+            <p>{this.state.project.description}</p><br />
+            <a href={this.state.project.link} target="_blank" rel="noreferrer noopener"><p className="project-link">View the project here</p></a>
+          </div>
+          <div className="project-img">
+            <img src={this.state.project.image} className="project-detail-img" alt="" />
+          </div>
+        </div>
         <Footer />
       </div>
     )

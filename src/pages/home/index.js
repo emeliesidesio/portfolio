@@ -39,6 +39,7 @@ class Home extends React.Component {
                 name={project.name}
                 language={project.language}
                 image={project.image}
+                link={project.link}
                 description={project.description} />
             ))}
           </ul>

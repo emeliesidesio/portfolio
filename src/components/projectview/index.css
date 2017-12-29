@@ -7,7 +7,7 @@
 }
 
 .detail {
-  width: 12vw;
+  max-height: 15vw;
 }
 
 @media only screen and (max-width: 700px) {
@@ -15,6 +15,6 @@
     height: 30vw;
   }
   .detail {
-    width: 16vw;
+    max-height: 21vw;
   }
 }
