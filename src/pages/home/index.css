@@ -1,15 +1,16 @@
 .hero-container {
   width: 100%;
-  min-height: 38vw;
+  height: auto;
 }
 
 .copy-container {
   width: 100%;
-  min-height: 290px;
+  height: auto;
+  margin-top: 5vw;
+  margin-bottom: 14vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 30px;
 }
 
 .work-container ul {
@@ -37,7 +38,8 @@
 
 .about-container {
   width: 100%;
-  min-height: 40vw;
+  min-height: 38vw;
+  padding-top: 45px;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -51,14 +53,13 @@
 }
 
 @media only screen and (max-width: 700px) {
-  .tagline {
-    font-size: 3.5vw;
-  }
-  .hero-container {
-    height: 90vw;
+  .copy-container {
+    margin-top: 5vw;
+    margin-bottom: 14vw;
   }
   .about-container {
-    height: 110vw;
+    height: 100vw;
+    padding-top: 25px;
   }
   .inner-margin {
     width: 65%;

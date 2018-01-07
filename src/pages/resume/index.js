@@ -1,7 +1,6 @@
 import React from "react"
 import Navigation from "components/navigation"
 import Footer from "components/footer"
-import { Link } from "react-router-dom"
 import profile from "assets/download.png"
 import "./index.css"
 
@@ -31,11 +30,11 @@ class Resume extends React.Component {
             <p>PIM Manager - Production management, artwork and banner production.</p><br />
             <h2>Education</h2><br />
             <p className="header-second">Technigo / Oct 2017 - Feb 2018</p>
-            <p>Digital Artworker - Producing images for multiple channels such as website and social media.</p><br />
+            <p>A 12 week bootcamp in web development.</p><br />
             <p className="header-second">Hyper Island / 2012 - 2013</p>
-            <p>Motion Graphics. En specialutbildning inom design och animation.</p><br />
+            <p>Motion Graphics. An eductation specializing in animation.</p><br />
             <p className="header-second">Stockholms University / 2010 - 2012</p>
-            <p>Grafiska institutet. En vidareutbildning inom grafisk design och projektledning.</p><br />
+            <p>Grafiska institutet. An eductation within graphic design and project management.</p><br />
             <h2>Freelance</h2><br />
             <p className="header-second">Tierra / 2016 - 2017</p>
             <p>Artworker for digital and print productions.</p><br />

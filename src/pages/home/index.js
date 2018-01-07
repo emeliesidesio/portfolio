@@ -14,6 +14,7 @@ import dreamcatcher from "assets/dreamcatcher-01.png"
 import "./index.css"
 
 class Home extends React.Component {
+
   render() {
     return (
       <div className="HomePage">
@@ -49,7 +50,7 @@ class Home extends React.Component {
 
           <ul className="work-grid">
             <li className="work-wide">
-              <h2 id="sparetime">Sparetime fun</h2>
+              <h2>Sparetime fun</h2>
             </li>
             <li className="box" style={{ backgroundImage: `url(${cat})` }} />
             <li className="box" style={{ backgroundImage: `url(${dreamcatcher})` }} />
@@ -63,7 +64,7 @@ class Home extends React.Component {
         <div className="about-container" id="contact">
           <div className="inner-margin">
             <h2>About me</h2>
-            <p><br />My name is Emelie and I'm a graphic designer located in Stockholm. I'm a Hyper Island alumni and up until recently I worked as a digital artworker at the marketing department of H&M. <br /><br />Previous fall I decided that I wanted to develop further and applied for a three month bootcamp in web development at the pop-up school Technigo. Now I'm learning new skills everyday and having such a fun time!</p>
+            <p><br />My name is Emelie and I'm a web developer and graphic designer located in Stockholm. I'm a Hyper Island alumni and up until recently I worked as a digital artworker at the marketing department of H&M. <br /><br />Three months ago I decided that I wanted to develop further and applied for a bootcamp in web development at the pop-up school Technigo. Now I'm learning new skills everyday and having such a fun time!</p>
             <h2><br />Get in touch</h2>
             <p><br />esidesio@gmail.com</p>
           </div>
