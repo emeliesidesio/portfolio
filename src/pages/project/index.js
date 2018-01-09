@@ -18,7 +18,7 @@ export default class ProjectPage extends React.Component {
     this.setProject(project)
   }
 
-  setProject = (project) => {
+  setProject = project => {
     this.setState({
       project
     })

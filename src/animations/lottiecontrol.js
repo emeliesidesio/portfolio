@@ -19,13 +19,15 @@ export default class LottieControl extends React.Component {
       }
     }
 
-    return <div>
-      <Lottie
-        options={defaultOptions}
-        height={150}
-        width={250}
-        isStopped={this.state.isStopped}
-        isPaused={this.state.isPaused} />
-    </div>
+    return (
+      <div>
+        <Lottie
+          options={defaultOptions}
+          height={150}
+          width={250}
+          isStopped={this.state.isStopped}
+          isPaused={this.state.isPaused} />
+      </div>
+    )
   }
 }

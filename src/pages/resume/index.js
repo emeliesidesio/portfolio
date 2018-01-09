@@ -21,7 +21,10 @@ class Resume extends React.Component {
           <li className="b">
             <h2>Experience</h2><br />
             <p className="header-second">H&M / July 2016 - Ongoing</p>
-            <p>Digital Artworker - Producing images for multiple channels such as website and social media.</p><br />
+            <p>
+              Digital Artworker - Producing images for multiple channels
+              such as website and social media.
+            </p><br />
             <p className="header-second">Ivyrevel / March 2016 - July 2016</p>
             <p>Graphic Designer - Graphic design and artwork production.</p><br />
             <p className="header-second">ADCN (Amsterdam) / Sep 2015 - March 2016</p>
@@ -34,7 +37,10 @@ class Resume extends React.Component {
             <p className="header-second">Hyper Island / 2012 - 2013</p>
             <p>Motion Graphics. An eductation specializing in animation.</p><br />
             <p className="header-second">Stockholms University / 2010 - 2012</p>
-            <p>Grafiska institutet. An eductation within graphic design and project management.</p><br />
+            <p>
+              Grafiska institutet. An eductation within graphic design and
+              project management.
+            </p><br />
             <h2>Freelance</h2><br />
             <p className="header-second">Tierra / 2016 - 2017</p>
             <p>Artworker for digital and print productions.</p><br />
