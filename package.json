@@ -2,7 +2,6 @@
   "name": "react-starter",
   "version": "1.2.2",
   "private": true,
-  "homepage": "https://emeliesidesio.github.io/portfolio",
   "dependencies": {
     "animate.css": "^3.5.2",
     "eslint-config-technigo": "^1.5.0",
@@ -18,8 +17,6 @@
     "waypoints": "^4.0.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
