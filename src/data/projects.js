@@ -25,7 +25,7 @@ export default [
     image: "https://s13.postimg.org/ce5zw5qlz/clock-img-5.png",
     name: "Build a Clock",
     language: "HTML5, CSS, JavaScript",
-    link: "https://emeliesidesio.github.io/assignment-clock/",
+    link: "https://emeliesidesio.github.io/clock/",
     description: "In this assignment we were supposed to create a clock using React state. A stretch goal included making a button which pauses the clock, and another one that starts it again."
   }, {
     id: "tictail",
