@@ -33,7 +33,10 @@ class Resume extends React.Component {
             <p>PIM Manager - Production management, artwork and banner production.</p><br />
             <h2>Education</h2><br />
             <p className="header-second">Technigo / Oct 2017 - Feb 2018</p>
-            <p>A 12 week bootcamp in web development.</p><br />
+            <p>A three month bootcamp in front end web developmet. During 12 weeks
+              we have received an individual assignment daily along with group
+              assignments in sprints of two weeks at a time.
+            </p><br />
             <p className="header-second">Hyper Island / 2012 - 2013</p>
             <p>Motion Graphics. An eductation specializing in animation.</p><br />
             <p className="header-second">Stockholms University / 2010 - 2012</p>

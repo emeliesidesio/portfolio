@@ -41,6 +41,7 @@ class Home extends React.Component {
                 language={project.language}
                 image={project.image}
                 link={project.link}
+                demo={project.demo}
                 description={project.description} />
             ))}
           </ul>
@@ -65,12 +66,12 @@ class Home extends React.Component {
           <div className="inner-margin">
             <h2>About me</h2>
             <p>
-              <br />My name is Emelie and I am a web developer and graphic designer
-              located in Stockholm. I am a Hyper Island alumni and up until recently
-              I worked as a digital artworker at the marketing department of H&M. <br />
-              <br />Three months ago I decided that I wanted to develop further and
-              applied for a bootcamp in web development at the pop-up school Technigo.
-              Now I am learning new skills everyday and having such a fun time!
+              <br />My name is Emelie and I&lsquo;m a web developer and graphic designer
+              located in Stockholm. I&lsquo;m a Hyper Island alumni and up until recently
+              I worked as a digital artworker at H&M marketing department. <br />
+              <br />I have a passion for design and technology and right now
+              I&lsquo;m participating in Technigo’s web development bootcamp.<br />
+              <br />I ❤️ typography, yoga and cat gifs.
             </p>
             <h2><br />Get in touch</h2>
             <p><br />esidesio@gmail.com</p>
