@@ -33,15 +33,17 @@ class Resume extends React.Component {
             <p>PIM Manager - Production management, artwork and banner production.</p><br />
             <h2>Education</h2><br />
             <p className="header-second">Technigo / Oct 2017 - Feb 2018</p>
-            <p>A three month bootcamp in front end web developmet. During 12 weeks
-              we have received an individual assignment daily along with group
+            <p>A three month bootcamp in front end web development. During 12 weeks
+              we have received one individual assignment daily along with group
               assignments in sprints of two weeks at a time.
             </p><br />
             <p className="header-second">Hyper Island / 2012 - 2013</p>
-            <p>Motion Graphics. An eductation specializing in animation.</p><br />
+            <p>Motion Graphics. A practical education focusing on the field of animation,
+              as well as the importance of group dynamic.
+            </p><br />
             <p className="header-second">Stockholms University / 2010 - 2012</p>
             <p>
-              Grafiska institutet. An eductation within graphic design and
+              Grafiska institutet. An education within graphic design and
               project management.
             </p><br />
             <h2>Freelance</h2><br />
