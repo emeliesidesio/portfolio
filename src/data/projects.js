@@ -24,13 +24,13 @@ export default [
     demo: "https://habit-track-app.netlify.com/",
     description: "This was a group project where we were supposed to create a habit tracker. An app where the user can store goals and keep track of their acheivements."
   }, {
-    id: "clock",
-    image: "https://s13.postimg.org/qmjfrq4zb/clock-screen.png",
-    name: "Build a Clock",
+    id: "weather",
+    image: "https://s13.postimg.org/qjm8it16v/weather-dashboard-screen.png",
+    name: "Weather Dashboard",
     language: "HTML5, CSS, JavaScript",
-    link: "https://github.com/emeliesidesio/clock",
-    demo: "https://emeliesidesio.github.io/clock/",
-    description: "In this assignment we were supposed to create a clock using React state. A stretch goal included making a button which pauses the clock, and another one that starts it again."
+    link: "https://github.com/emeliesidesio/weather-dashboard",
+    demo: "https://emeliesidesio.github.io/weather-dashboard/index",
+    description: "A project to build a simple weather dashboard with a weather API. It includes a function that changes the color of the backgound, depending on the temperature."
   }, {
       image: "https://s13.postimg.org/eje44btyv/advent-cal-screen.png",
       id: "calendar",
@@ -46,6 +46,22 @@ export default [
     language: "React, HTML5, CSS",
     link: "https://github.com/emeliesidesio/css-grid",
     demo: "https://css-grids.netlify.com/",
-    description: "This daily assignment focused on CSS grids. The task was to copy an already skethed design and come as close to the original as possible."
+    description: "An assignment with CSS grids. The task was to copy an already skethed design and come as close to the original as possible."
+  }, {
+    id: "clock",
+    image: "https://s13.postimg.org/qmjfrq4zb/clock-screen.png",
+    name: "Build a Clock",
+    language: "HTML5, CSS, JavaScript",
+    link: "https://github.com/emeliesidesio/clock",
+    demo: "https://emeliesidesio.github.io/clock/",
+    description: "In this assignment we were supposed to create a clock using React state. A stretch goal included making a button which pauses the clock, and another one that starts it again."
+  }, {
+    id: "radio",
+    image: "https://s13.postimg.org/m974412d3/radio-stations-screen.png",
+    name: "Radio Player",
+    language: "React, JavaScript, HTML5, CSS",
+    link: "https://github.com/emeliesidesio/radio-player",
+    demo: "https://emeliesidesio.github.io/radio-player/",
+    description: "Using the API from Sveriges Radio to fetch data and render a list of radio channels."
   }
 ]
