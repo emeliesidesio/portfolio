@@ -1,32 +1,42 @@
 .footer-container {
-  background-color: #EAEDf0;
-  width: 100%;
+  height: 25rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10vw;
+  flex-direction: column;
+  background-color: #EAEDf0;
+  text-align: center;
+}
+
+.text-container {
+  width: 28rem;
 }
 
 .logo-container {
-  width: 9vw;
+  width: 7.5rem;
   display: flex;
   justify-content: space-between;
 }
 
 .social-image {
-  width: 2.5vw;
-  height: 2.5vw;
+  width: 2rem;
+  height: 2rem;
+}
+
+.title-secondary {
+  text-transform: uppercase;
+  letter-spacing: 0.06rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.paragraph {
+  font-weight: 300;
+  font-size: 0.96rem;
 }
 
 @media only screen and (max-width: 500px) {
-  .logo-container {
-    width: 22vw;
-  }
-  .footer-container {
-    height: 20vw;
-  }
-  .social-image {
-    width: 5.5vw;
-    height: 5.5vw;
+  .text-container {
+    width: 20rem;
   }
 }
