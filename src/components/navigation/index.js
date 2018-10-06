@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import "./index.css"
 
 class Navigation extends React.Component {
@@ -14,6 +15,7 @@ class Navigation extends React.Component {
         </label>
 
         <div className="menu">
+          <div><Link className="nav-link" to="/">Home</Link></div>
           <div><a href="/#contact" className="nav-link">About / Contact</a></div>
         </div>
 
