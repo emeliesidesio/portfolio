@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900');
 
 * {
   box-sizing: border-box;
@@ -8,93 +8,24 @@ body {
   margin: 0;
   padding: 0;
   background: rgb(247, 247, 247);
+  font-family: "Lato", sans-serif;
   color: black;
 }
 
-h1 {
-  font-family: "Lato", sans-serif;
-  font-weight: 900;
+.title-secondary {
   text-transform: uppercase;
-  font-size: 2vw;
-  letter-spacing: 3px;
-  line-height: 30px;
-  margin: 0;
+  letter-spacing: 0.06rem;
+  font-size: 1.1rem;
+  font-weight: 700;
 }
 
-h2 {
-  font-family: "Lato", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 1.5vw;
-  margin: 0;
-  padding: 0;
-}
-
-p {
-  font-family: "Lato", sans-serif;
+.paragraph {
   font-weight: 300;
-  font-size: 1.2vw;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  list-style: none;
-}
-
-a, Link {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: black;
-  font-size: 1vw;
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #F80793;;
+  font-size: 0.96rem;
 }
 
 .tagline {
-  font-family: "Lato", sans-serif;
   font-weight: 300;
   font-style: italic;
-  font-size: 1.2vw;
-  margin-top: 10px;
-}
-
-@media only screen and (max-width: 700px) {
-  p {
-    font-size: 3vw;
-  }
-  h1 {
-    font-size: 6vw;
-  }
-  h2 {
-    font-size: 4vw;
-  }
-  a {
-    font-size: 2.3vw;
-  }
-  .tagline {
-    font-size: 3vw;
-  }
-}
-
-@media only screen and (min-width: 700px) and (max-width: 900px) {
-  p {
-    font-size: 2vw;
-  }
-  h1 {
-    font-size: 4vw;
-  }
-  h2 {
-    font-size: 2.5vw;
-  }
-  .tagline {
-    font-size: 2vw;
-  }
+  font-size: 0.9rem;
 }

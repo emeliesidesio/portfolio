@@ -7,7 +7,7 @@ export default class ProjectView extends React.Component {
   render() {
     return (
       <Link to={`/projects/${this.props.url}`} className="ProjectView">
-        <li className="workbox"><img src={this.props.image} alt="" className="detail" /></li>
+        <div className="workbox"><img src={this.props.image} alt="" className="detail" /></div>
       </Link>
     )
   }

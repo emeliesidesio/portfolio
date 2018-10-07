@@ -23,18 +23,6 @@
   height: 2rem;
 }
 
-.title-secondary {
-  text-transform: uppercase;
-  letter-spacing: 0.06rem;
-  font-size: 1.1rem;
-  font-weight: 700;
-}
-
-.paragraph {
-  font-weight: 300;
-  font-size: 0.96rem;
-}
-
 @media only screen and (max-width: 500px) {
   .text-container {
     width: 20rem;

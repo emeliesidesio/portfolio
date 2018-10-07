@@ -4,6 +4,7 @@ import LottieControl from "animations/lottiecontrol"
 import ProjectView from "components/projectview"
 import projects from "data/projects"
 import Footer from "components/footer"
+import Spacer from "components/spacer"
 
 import cat from "assets/cat_walk_cycle.gif"
 import fries from "assets/fries-animation.gif"
@@ -17,22 +18,21 @@ class Home extends React.Component {
 
   render() {
     return (
-      <div className="HomePage">
+      <div>
 
         <div className="hero-container">
           <Navigation />
-          <div className="copy-container">
-            <LottieControl />
-            <h1>Emelie Sidesiö</h1>
-            <p className="tagline">Web developer & Graphic designer.</p>
-          </div>
+          <LottieControl />
+          <div className="title">Emelie Sidesiö</div>
+          <Spacer />
+          <div className="tagline">Web developer & Graphic designer</div>
         </div>
 
         <div className="work-container">
-          <ul className="work-grid">
-            <li className="work-wide">
-              <h2>Web development</h2>
-            </li>
+          <div className="work-grid">
+            <div className="work-wide">
+              <div className="title-secondary">Web development</div>
+            </div>
             {projects.map(project => (
               <ProjectView
                 key={project.id}
@@ -44,40 +44,25 @@ class Home extends React.Component {
                 demo={project.demo}
                 description={project.description} />
             ))}
-          </ul>
+          </div>
         </div>
 
         <div className="work-container">
 
-          <ul className="work-grid">
-            <li className="work-wide">
-              <h2>Sparetime fun</h2>
-            </li>
-            <li className="box" style={{ backgroundImage: `url(${cat})` }} />
-            <li className="box" style={{ backgroundImage: `url(${dreamcatcher})` }} />
-            <li className="box" style={{ backgroundImage: `url(${fries})` }} />
-            <li className="box" style={{ backgroundImage: `url(${donut})` }} />
-            <li className="box" style={{ backgroundImage: `url(${camping})` }} />
-            <li className="box" style={{ backgroundImage: `url(${bottles})` }} />
-          </ul>
+          <div className="work-grid">
+            <div className="work-wide">
+              <div className="title-secondary">Sparetime fun</div>
+            </div>
+            <div className="box" style={{ backgroundImage: `url(${cat})` }} />
+            <div className="box" style={{ backgroundImage: `url(${dreamcatcher})` }} />
+            <div className="box" style={{ backgroundImage: `url(${fries})` }} />
+            <div className="box" style={{ backgroundImage: `url(${donut})` }} />
+            <div className="box" style={{ backgroundImage: `url(${camping})` }} />
+            <div className="box" style={{ backgroundImage: `url(${bottles})` }} />
+          </div>
         </div>
 
-        <div className="about-container" id="contact">
-          <div className="inner-margin">
-            <h2>About me</h2>
-            <p>
-              <br />My name is Emelie and I&lsquo;m a web developer and graphic designer
-              located in Stockholm. I&lsquo;m a Hyper Island alumni and up until recently
-              I worked as a digital artworker at H&M marketing department. <br />
-              <br />I have a passion for design and technology and right now
-              I&lsquo;m participating in Technigo’s web development bootcamp.<br />
-              <br />I ❤️ typography, yoga and cat gifs.
-            </p>
-            <h2><br />Get in touch</h2>
-            <p><br />esidesio@gmail.com</p>
-          </div>
-          <Footer />
-        </div>
+        <Footer />
 
       </div>
     )
